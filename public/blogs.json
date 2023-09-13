@@ -1,0 +1,43 @@
+[
+    {
+        "id": "1",
+        "cover": "https://i.ibb.co/zsQPq5L/6512456.jpg",
+        "title": "The Enigmatic Adventure",
+        "author": "Alice Smith",
+        "author_img": "https://i.ibb.co/Wppg6JC/young-bearded-man-with-striped-shirt.jpg",
+        "posted_date": "2023-09-13",
+        "reading_time": 120,
+        "hashtags": ["mystery", "adventure", "fiction"]
+    },
+    {
+        "id": "2",
+        "cover": "https://i.ibb.co/wQKTSfr/19330959.jpg",
+        "title": "Lost in the Cosmos",
+        "author": "John Doe",
+        "author_img": "https://i.ibb.co/Wppg6JC/young-bearded-man-with-striped-shirt.jpg",
+        "posted_date": "2023-09-12",
+        "reading_time": 180,
+        "hashtags": ["science fiction", "space", "exploration"]
+    },
+    {
+        "id": "3",
+        "cover": "https://i.ibb.co/zsQPq5L/6512456.jpg",
+        "title": "Secrets of the Past",
+        "author": "Emily Brown",
+        "author_img": "https://i.ibb.co/Wppg6JC/young-bearded-man-with-striped-shirt.jpg",
+        "posted_date": "2023-09-11",
+        "reading_time": 150,
+        "hashtags": ["historical", "mystery", "fiction"]
+    },
+    {
+        "id": "4",
+        "cover": "https://i.ibb.co/wQKTSfr/19330959.jpg",
+        "title": "Tech Titans",
+        "author": "David Green",
+        "author_img": "https://i.ibb.co/Wppg6JC/young-bearded-man-with-striped-shirt.jpg",
+        "posted_date": "2023-09-10",
+        "reading_time": 90,
+        "hashtags": ["technology", "business", "innovation"]
+    }
+    
+]
