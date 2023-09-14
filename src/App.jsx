@@ -2,14 +2,28 @@ import { useState } from 'react'
 import './App.css'
 import Header from './components/Header/Header'
 import Blogs from './components/Blogs/Blogs'
+import Bookmarks from './components/Bookmarks/Bookmarks'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [bookmarks , setBookmarks] = useState([]);
+  const [readingTime ,setReadingTime] = useState(0)
+
+  const handleAddToBookmark = blog =>{
+    const newBookmarks = [...bookmarks , blog]
+    setBookmarks(newBookmarks)
+  }
+  const handleMarkAsRead = time =>{
+   const newReadingTime = readingTime + time;
+   setReadingTime(newReadingTime)
+  }
 
   return (
     <>
       <Header></Header>
-      <Blogs></Blogs>
+     <div className='md:flex max-w-7xl mx-auto gap-16'>
+        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
+        <Bookmarks readingTime={readingTime} bookmarks={bookmarks}></Bookmarks>
+     </div>
     </>
   )
 }
